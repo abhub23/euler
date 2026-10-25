@@ -77,7 +77,7 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className={linkStyles}>
+                  <Link href="/pricing" className={linkStyles}>
                     Pricing
                   </Link>
                 </li>
