@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { GithubIcon, LinkedInIcon, MailIcon, XIcon } from "./logos";
 
@@ -15,6 +16,13 @@ export default function Footer() {
           {/* Brand Column & CTA */}
           <div className="flex flex-col items-start text-left md:col-span-12">
             <Link href="/" className="group mb-8 inline-flex items-center gap-3">
+              <Image
+                src="/app/logo-xy-light.svg"
+                alt=""
+                width={56}
+                height={56}
+                aria-hidden="true"
+              />
               <span className="font-bold text-2xl text-[#e8e6e3] tracking-tight">Euler</span>
             </Link>
 

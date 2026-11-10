@@ -2,6 +2,7 @@
 
 import { cn } from "cn";
 import { TextAlignStart, X } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Button } from "@/components/glaze/ui/button";
@@ -29,7 +30,14 @@ export default function Navbar() {
             : "max-w-6xl rounded-md border border-transparent bg-background/60 backdrop-blur-md md:px-8"
         )}
       >
-        <Link href="/" className="ml-6 font-bold text-foreground text-xl">
+        <Link href="/" className="ml-6 flex items-center gap-2 font-bold text-foreground text-xl">
+          <Image
+            src="/app/logo-xy-light.svg"
+            alt=""
+            width={56}
+            height={56}
+            aria-hidden="true"
+          />
           Euler
         </Link>
 
