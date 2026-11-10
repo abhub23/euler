@@ -3,7 +3,7 @@ import { GithubIcon, LinkedInIcon, MailIcon, XIcon } from "./logos";
 
 export default function Footer() {
   const linkStyles =
-    "text-sm text-[oklch(0.708_0_0)] hover:text-[#e8e6e3] transition-all duration-300 bg-[linear-gradient(currentColor,currentColor)] bg-[length:0%_1px] bg-no-repeat bg-left-bottom pb-1 hover:bg-[length:100%_1px]";
+    "text-sm text-[oklch(0.708_0_0)] hover:text-[#e8e6e3] transition-all duration-300 pb-1";
 
   return (
     <footer className="relative overflow-hidden rounded-tl-3xl rounded-tr-3xl border-white/5 border-t bg-[#14120b] pt-20 pb-10 selection:bg-white/30 md:pb-14">
