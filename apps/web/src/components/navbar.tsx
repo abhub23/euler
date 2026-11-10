@@ -4,8 +4,8 @@ import { cn } from "cn";
 import { TextAlignStart, X } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { Button } from "@/components/glaze/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
-import { Button } from "@/components/ui/button";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -65,9 +65,16 @@ export default function Navbar() {
         <div className="mr-6 flex items-center gap-3">
           <ThemeToggle />
           <div className="hidden items-center gap-8 md:flex">
-            <Button asChild size="lg" className="h-9 rounded-md px-4 text-sm">
-              <Link href="/signin">Sign In</Link>
-            </Button>
+            <span style={{ display: "contents", fontFamily: "inherit" }} className="glaze">
+              <Button
+                className="h-9! px-4! text-sm!"
+                style={{ fontFamily: "inherit" }}
+                render={<Link href="/signin" />}
+                nativeButton={false}
+              >
+                Sign In
+              </Button>
+            </span>
           </div>
 
           <button
@@ -123,11 +130,18 @@ export default function Navbar() {
 
           <div className="h-px w-full bg-white/10"></div>
 
-          <Button asChild className="h-auto w-full rounded-md py-1.5 text-base">
-            <Link href="/signin" onClick={() => setIsMobileMenuOpen(false)}>
+          <span style={{ display: "contents", fontFamily: "inherit" }} className="glaze">
+            <Button
+              className="h-auto! w-full! py-1.5! text-base!"
+              style={{ fontFamily: "inherit" }}
+              render={
+                <Link href="/signin" onClick={() => setIsMobileMenuOpen(false)} />
+              }
+              nativeButton={false}
+            >
               Sign In
-            </Link>
-          </Button>
+            </Button>
+          </span>
         </div>
       )}
     </nav>
