@@ -12,16 +12,16 @@ const robotoMono = Roboto_Mono({
   variable: "--font-roboto-mono",
 });
 
-const App_Url = "https://stealth.abdullahtech.dev";
+const App_Url = "https://euler.abdullahtech.dev";
 
 export const metadata: Metadata = {
   metadataBase: new URL(App_Url),
-  title: "Stealth",
+  title: "Euler",
   icons: {
     icon: "/og-image.png",
   },
   description:
-    "Stealth is a battle tested AI assistant designed and developed to help devs manage and review their PRs efficiently",
+    "Euler is a battle tested AI assistant designed and developed to help devs manage and review their PRs efficiently",
 
   keywords: [
     "AI Product",
@@ -53,9 +53,9 @@ export const metadata: Metadata = {
   publisher: "Abdullah Mukri",
 
   openGraph: {
-    title: "Stealth",
+    title: "Euler",
     description:
-      "Stealth is a battle tested AI assistant designed and developed to help devs manage and review their PRs efficiently",
+      "Euler is a battle tested AI assistant designed and developed to help devs manage and review their PRs efficiently",
     siteName: App_Url,
 
     images: [
@@ -71,9 +71,9 @@ export const metadata: Metadata = {
   twitter: {
     site: App_Url,
     creator: "@abdullah_twt23",
-    title: "Stealth",
+    title: "Euler",
     description:
-      "Stealth is a battle tested AI assistant designed and developed to help devs manage and review their PRs efficiently",
+      "Euler is a battle tested AI assistant designed and developed to help devs manage and review their PRs efficiently",
     images: {
       url: `${App_Url}/og-image.png`,
     },

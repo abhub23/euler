@@ -30,7 +30,7 @@ export default function Navbar() {
         )}
       >
         <Link href="/" className="ml-6 font-bold text-foreground text-xl">
-          Stealth
+          Euler
         </Link>
 
         {/* Desktop Navigation */}

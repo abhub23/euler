@@ -4,23 +4,23 @@ import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 
 export const metadata: Metadata = {
-  title: "Terms and Conditions - Stealth",
+  title: "Terms and Conditions - Euler",
   description:
-    "The terms and conditions that govern your use of Stealth's AI-powered development platform.",
+    "The terms and conditions that govern your use of Euler's AI-powered development platform.",
 };
 
 const sections = [
   {
     title: "1. Acceptance of Terms",
     body: [
-      "By accessing or using the Stealth platform, you agree to be bound by these Terms and Conditions and all applicable laws and regulations. If you do not agree with any part of these terms, you may not access the platform.",
+      "By accessing or using the Euler platform, you agree to be bound by these Terms and Conditions and all applicable laws and regulations. If you do not agree with any part of these terms, you may not access the platform.",
       "These Terms apply to all visitors, users, and others who access the service. We may update these Terms from time to time, and it is your responsibility to review them periodically.",
     ],
   },
   {
     title: "2. Use of the Service",
     body: [
-      "Stealth grants you a limited, non-exclusive, non-transferable license to use the platform for your internal business purposes in accordance with these Terms.",
+      "Euler grants you a limited, non-exclusive, non-transferable license to use the platform for your internal business purposes in accordance with these Terms.",
       "You agree not to misuse, reverse engineer, or attempt to extract the source code of the service, nor use it to build a competitive product. You are responsible for all activity that occurs under your account.",
     ],
   },
@@ -41,8 +41,8 @@ const sections = [
   {
     title: "5. Intellectual Property",
     body: [
-      "The Stealth platform, including its software, design, logos, and documentation, is owned by Stealth Inc. and protected by intellectual property laws. You retain ownership of the code and content you create using the platform.",
-      "Nothing in these Terms grants you any rights to Stealth's trademarks or branding. Your use of the service does not transfer any ownership rights to you.",
+      "The Euler platform, including its software, design, logos, and documentation, is owned by Euler Inc. and protected by intellectual property laws. You retain ownership of the code and content you create using the platform.",
+      "Nothing in these Terms grants you any rights to Euler's trademarks or branding. Your use of the service does not transfer any ownership rights to you.",
     ],
   },
   {
@@ -63,20 +63,20 @@ const sections = [
     title: "8. Disclaimers and Limitation of Liability",
     body: [
       'The service is provided on an "as is" and "as available" basis without warranties of any kind, whether express or implied. We do not guarantee that the service will be uninterrupted, secure, or error-free.',
-      "To the maximum extent permitted by law, Stealth shall not be liable for any indirect, incidental, special, or consequential damages arising out of your use of the service.",
+      "To the maximum extent permitted by law, Euler shall not be liable for any indirect, incidental, special, or consequential damages arising out of your use of the service.",
     ],
   },
   {
     title: "9. Governing Law",
     body: [
-      "These Terms are governed by the laws of the jurisdiction in which Stealth Inc. is incorporated, without regard to its conflict of law provisions.",
+      "These Terms are governed by the laws of the jurisdiction in which Euler Inc. is incorporated, without regard to its conflict of law provisions.",
       "Any disputes arising from these Terms will be resolved in the competent courts of that jurisdiction. You agree to submit to the personal jurisdiction of those courts.",
     ],
   },
   {
     title: "10. Contact",
     body: [
-      "If you have questions about these Terms, please reach out to us via the contact page or by emailing support@stealth.dev.",
+      "If you have questions about these Terms, please reach out to us via the contact page or by emailing support@euler.dev.",
     ],
   },
 ];

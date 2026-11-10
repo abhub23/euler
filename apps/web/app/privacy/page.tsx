@@ -4,8 +4,8 @@ import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - Stealth",
-  description: "How Stealth collects, uses, and protects your personal information.",
+  title: "Privacy Policy - Euler",
+  description: "How Euler collects, uses, and protects your personal information.",
 };
 
 const sections = [
@@ -75,7 +75,7 @@ const sections = [
   {
     title: "10. Contact Us",
     body: [
-      "If you have questions about this Privacy Policy or our data practices, please contact us via the contact page or by emailing privacy@stealth.dev.",
+      "If you have questions about this Privacy Policy or our data practices, please contact us via the contact page or by emailing privacy@euler.dev.",
     ],
   },
 ];

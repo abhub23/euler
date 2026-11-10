@@ -28,7 +28,7 @@ export default function About() {
                 </span>
               </Heading>
               <p className="mx-auto max-w-2xl text-balance text-muted-foreground text-xl leading-relaxed">
-                Stealth is on a mission to empower every developer with autonomous AI agents that
+                Euler is on a mission to empower every developer with autonomous AI agents that
                 handle the boring stuff — so you can focus on what matters.
               </p>
             </div>
@@ -48,7 +48,7 @@ export default function About() {
               </div>
               <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  Stealth started in 2026 with a simple observation: developers spend too much time
+                  Euler started in 2026 with a simple observation: developers spend too much time
                   on repetitive tasks and not enough time building. We set out to create AI agents
                   that could handle the grunt work — testing, deployment, monitoring — so teams
                   could move faster and ship better software.
@@ -134,7 +134,7 @@ export default function About() {
                   Ready to get started?
                 </Heading>
                 <p className="mx-auto mb-10 max-w-xl text-balance text-lg text-muted-foreground">
-                  Join thousands of developers who are already shipping faster with Stealth.
+                  Join thousands of developers who are already shipping faster with Euler.
                 </p>
                 <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
                   <a

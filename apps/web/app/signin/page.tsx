@@ -45,7 +45,7 @@ export default function Page() {
       <div className="flex w-full flex-1 items-center justify-center">
         <div className="w-full max-w-md">
           <div className="text-center">
-            <h1 className="mb-2 font-medium text-3xl">Welcome to Stealth</h1>
+            <h1 className="mb-2 font-medium text-3xl">Welcome to Euler</h1>
             <p className="text-muted-foreground text-sm">Sign in to your account</p>
           </div>
 

@@ -10,7 +10,7 @@ const plans = [
     name: "Free",
     price: "$0",
     period: "/month",
-    description: "Get started with Stealth for free.",
+    description: "Get started with Euler for free.",
     features: ["Core features included", "Community support", "Basic usage limits"],
     cta: "Get Started",
     href: "/signup",

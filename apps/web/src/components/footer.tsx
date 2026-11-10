@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Brand Column & CTA */}
           <div className="flex flex-col items-start text-left md:col-span-12">
             <Link href="/" className="group mb-8 inline-flex items-center gap-3">
-              <span className="font-bold text-2xl text-[#e8e6e3] tracking-tight">Stealth</span>
+              <span className="font-bold text-2xl text-[#e8e6e3] tracking-tight">Euler</span>
             </Link>
 
             {/* AI SaaS focused Mini CTA */}
@@ -117,7 +117,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-6 flex flex-col items-center justify-between gap-1 border-white/5 border-t pt-4 md:mt-16 md:flex-row md:gap-6">
           <p className="text-[oklch(0.708_0_0)]/80 text-sm">
-            © {new Date().getFullYear()} Stealth Inc. All rights reserved.
+            © {new Date().getFullYear()} Euler Inc. All rights reserved.
           </p>
         </div>
       </div>
