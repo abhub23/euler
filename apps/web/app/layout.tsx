@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Roboto_Mono } from "next/font/google";
 import { fd } from "@/lib/font";
 import "./globals.css";
+import "@/components/glaze/styles.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import ReactQueryProvider from "@/lib/react-query-provider";
 
