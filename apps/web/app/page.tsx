@@ -2,6 +2,7 @@ import { BentoCard } from "@/components/bento-card";
 import { Container } from "@/components/container";
 import CTA from "@/components/cta";
 import FAQs from "@/components/faqs";
+import FeatureStack from "@/components/feature-stack";
 import Footer from "@/components/footer";
 import { Keyboard } from "@/components/keyboard";
 import { LogoCluster } from "@/components/logo-cluster";
@@ -75,6 +76,7 @@ export default function Home() {
       <div className="overflow-hidden">
         <BentoSection />
       </div>
+      <FeatureStack />
       <FAQs />
       <Footer />
     </>
