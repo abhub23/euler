@@ -212,7 +212,7 @@ export default function FeatureStack() {
 
             {/* Stacked visuals */}
             <div className="relative mx-auto w-full max-w-xl lg:max-w-none">
-              <div className="absolute -inset-6 rounded-[2rem] bg-[#9a3412]/5 blur-2xl dark:bg-orange-500/10" />
+              <div className="absolute -inset-6 rounded-[2rem] bg-[#9a3412]/5 blur-2xl dark:hidden" />
               <div className="relative aspect-[4/3] sm:aspect-[16/10]">
                 {visuals.map((visual, index) => {
                   const depth = index - active;

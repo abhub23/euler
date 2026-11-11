@@ -161,36 +161,14 @@
   }
 }
 
-@keyframes flow-flare {
-  0%,
-  78% {
-    opacity: 0;
-  }
-  84% {
-    opacity: 0.16;
-  }
-  90%,
-  100% {
-    opacity: 0;
-  }
-}
-
 .flow-streak {
   stroke-dasharray: 16 84;
   animation: flow-streak 2s linear infinite;
 }
 
-.flow-flare {
-  animation: flow-flare 2s linear infinite;
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .flow-streak,
-  .flow-flare {
-    animation: none;
-  }
-
   .flow-streak {
+    animation: none;
     stroke-dasharray: none;
   }
 }

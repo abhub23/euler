@@ -37,22 +37,6 @@ export function DataFlowVisual() {
         />
       ))}
 
-      {/* Arrival flares behind each destination */}
-      {nodes.map((node, index) => (
-        <rect
-          key={`flare-${node.label}`}
-          x={404}
-          y={boxY[index]}
-          width={168}
-          height={54}
-          rx={12}
-          fill="#9a3412"
-          opacity={0}
-          className="flow-flare"
-          style={{ animationDelay: `${index * 0.5 - 1.5}s` }}
-        />
-      ))}
-
       {/* Destination boxes */}
       {nodes.map((node, index) => (
         <g key={node.label}>
