@@ -176,7 +176,7 @@
 }
 
 .flow-streak {
-  stroke-dasharray: 18 82;
+  stroke-dasharray: 16 84;
   animation: flow-streak 2s linear infinite;
 }
 
