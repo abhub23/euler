@@ -45,7 +45,25 @@ export default function Page() {
       <div className="flex w-full flex-1 items-center justify-center">
         <div className="w-full max-w-md">
           <div className="text-center">
-            <h1 className="mb-2 font-medium text-3xl">Welcome to Euler</h1>
+            <h1 className="mb-2 flex flex-wrap items-center justify-center gap-2 font-medium text-3xl">
+              Welcome to Euler
+              <Image
+                src="/app/logo-light.svg"
+                alt=""
+                width={60}
+                height={60}
+                aria-hidden="true"
+                className="dark:hidden"
+              />
+              <Image
+                src="/app/logo-dark.svg"
+                alt=""
+                width={60}
+                height={60}
+                aria-hidden="true"
+                className="hidden dark:block"
+              />
+            </h1>
             <p className="text-muted-foreground text-sm">Sign in to your account</p>
           </div>
 

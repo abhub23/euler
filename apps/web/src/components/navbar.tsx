@@ -42,8 +42,8 @@ export default function Navbar() {
           <Image
             src="/app/logo-dark.svg"
             alt=""
-            width={56}
-            height={56}
+            width={60}
+            height={60}
             aria-hidden="true"
             className="hidden dark:block"
           />
