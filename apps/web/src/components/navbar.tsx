@@ -27,16 +27,25 @@ export default function Navbar() {
           "pointer-events-auto relative mx-auto flex h-16 items-center justify-between transition-all duration-300 ease-in-out",
           isScrolled
             ? "max-w-4xl rounded-xl border border-white/10 bg-background/60 shadow-lg backdrop-blur-lg md:px-2"
-            : "max-w-6xl rounded-md border border-transparent bg-background/60 backdrop-blur-md md:px-8"
+            : "max-w-5xl rounded-md border border-transparent bg-background/60 backdrop-blur-md md:px-8"
         )}
       >
         <Link href="/" className="ml-6 flex items-center gap-2 font-bold text-foreground text-xl">
           <Image
-            src="/app/logo-xy-light.svg"
+            src="/app/logo-light.svg"
+            alt=""
+            width={60}
+            height={60}
+            aria-hidden="true"
+            className="dark:hidden"
+          />
+          <Image
+            src="/app/logo-dark.svg"
             alt=""
             width={56}
             height={56}
             aria-hidden="true"
+            className="hidden dark:block"
           />
           Euler
         </Link>

@@ -17,10 +17,10 @@ export default function Footer() {
           <div className="flex flex-col items-start text-left md:col-span-12">
             <Link href="/" className="group mb-8 inline-flex items-center gap-3">
               <Image
-                src="/app/logo-xy-light.svg"
+                src="/app/logo-dark.svg"
                 alt=""
-                width={56}
-                height={56}
+                width={60}
+                height={60}
                 aria-hidden="true"
               />
               <span className="font-bold text-2xl text-[#e8e6e3] tracking-tight">Euler</span>
