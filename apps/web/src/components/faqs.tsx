@@ -39,7 +39,7 @@ const items = [
 
 export default function FAQs() {
   return (
-    <section className="py-20">
+    <section className="pb-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mb-12 text-center">
           <h2 className="font-semibold text-3xl text-foreground tracking-tight sm:text-3xl md:text-4xl lg:text-5xl">
