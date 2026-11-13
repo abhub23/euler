@@ -113,7 +113,7 @@ export default function Navbar() {
 
       {/* Mobile Dropdown Menu */}
       {isMobileMenuOpen && (
-        <div className="pointer-events-auto absolute top-full right-4 left-4 z-50 mt-2 flex flex-col gap-4 overflow-hidden rounded-2xl border border-muted-foreground/20 bg-background px-6 py-6 shadow-2xl md:hidden">
+        <div className="pointer-events-auto absolute top-full right-4 left-4 z-50 mt-0 flex flex-col gap-4 overflow-hidden rounded-2xl border border-muted-foreground/20 bg-background px-6 py-6 shadow-2xl md:hidden">
           <div className="flex flex-col gap-5">
             <Link
               href="#"
@@ -149,7 +149,7 @@ export default function Navbar() {
 
           <span style={{ display: "contents", fontFamily: "inherit" }} className="glaze">
             <Button
-              className="h-auto! w-full! py-1.5! text-base!"
+              className="h-auto! w-full! py-2! text-base!"
               style={{ fontFamily: "inherit" }}
               render={
                 <Link href="/signin" onClick={() => setIsMobileMenuOpen(false)} />
