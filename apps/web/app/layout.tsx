@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto_Mono } from "next/font/google";
 import { fd } from "@/lib/font";
+import { APP_URL, SITE_DESCRIPTION, SITE_NAME } from "@/lib/site";
 import "./globals.css";
 import "@/components/glaze/styles.css";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -12,16 +13,13 @@ const robotoMono = Roboto_Mono({
   variable: "--font-roboto-mono",
 });
 
-const App_Url = "https://euler.abdullahtech.dev";
-
 export const metadata: Metadata = {
-  metadataBase: new URL(App_Url),
-  title: "Euler",
+  metadataBase: new URL(APP_URL),
+  title: SITE_NAME,
   icons: {
     icon: "/app/logo-dark.svg",
   },
-  description:
-    "Euler is a battle tested AI assistant designed and developed to help devs manage and review their PRs efficiently",
+  description: SITE_DESCRIPTION,
 
   keywords: [
     "AI Product",
@@ -56,11 +54,11 @@ export const metadata: Metadata = {
     title: "Euler",
     description:
       "Euler is a battle tested AI assistant designed and developed to help devs manage and review their PRs efficiently",
-    siteName: App_Url,
+    siteName: SITE_NAME,
 
     images: [
       {
-        url: `${App_Url}/og-image.png`,
+        url: `${APP_URL}/og-image.png`,
         width: 1200,
         height: 630,
       },
@@ -69,19 +67,19 @@ export const metadata: Metadata = {
   },
 
   twitter: {
-    site: App_Url,
+    site: APP_URL,
     creator: "@abdullah_twt23",
     title: "Euler",
     description:
       "Euler is a battle tested AI assistant designed and developed to help devs manage and review their PRs efficiently",
     images: {
-      url: `${App_Url}/og-image.png`,
+      url: `${APP_URL}/og-image.png`,
     },
   },
 
   appLinks: {
     web: {
-      url: new URL(App_Url),
+      url: new URL(APP_URL),
     },
   },
   category: "AI Product",
