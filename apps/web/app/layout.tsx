@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(App_Url),
   title: "Euler",
   icons: {
-    icon: "/app/logo-light.svg",
+    icon: "/app/logo-dark.svg",
   },
   description:
     "Euler is a battle tested AI assistant designed and developed to help devs manage and review their PRs efficiently",
