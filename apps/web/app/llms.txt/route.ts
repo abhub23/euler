@@ -1,34 +1,35 @@
-const App_Url = "https://euler.abdullahtech.dev";
+import { APP_URL, PAGES, SITE_NAME, SITE_SUMMARY, urlFor } from "@/lib/site";
 
 export const dynamic = "force-static";
 
+const indexable = PAGES.filter((page) => page.indexable);
+const account = PAGES.filter((page) => !page.indexable);
+
 export function GET() {
   const content = [
-    "# Euler",
+    `# ${SITE_NAME}`,
     "",
-    "> Euler is a battle tested AI assistant designed and developed to help devs",
-    "> manage and review their PRs efficiently. It uses AI agents to turn complex",
-    "> workflows into clear, actionable insights so teams can make better decisions",
-    "> faster.",
+    ...SITE_SUMMARY.map((line) => `> ${line}`),
     "",
     "## Pages",
     "",
-    `- [Home](${App_Url}/): Product features, capabilities, and FAQs.`,
-    `- [About](${App_Url}/about): The mission behind Euler — empowering developers with autonomous AI agents.`,
-    `- [Pricing](${App_Url}/pricing): Plans and pricing.`,
-    `- [Privacy Policy](${App_Url}/privacy): How Euler handles your data.`,
-    `- [Terms of Service](${App_Url}/terms): Terms of using Euler.`,
+    ...indexable.map((page) => `- [${page.title}](${urlFor(page.path)}): ${page.summary}`),
     "",
     "## Account",
     "",
-    `- [Sign in](${App_Url}/signin): Sign in to an existing account.`,
-    `- [Sign up](${App_Url}/signup): Create a new account.`,
+    ...account.map((page) => `- [${page.title}](${urlFor(page.path)}): ${page.summary}`),
+    "",
+    "## Optional",
+    "",
+    `- [Open Graph image](${APP_URL}/og-image.png): Social preview card for ${SITE_NAME}.`,
+    `- [Screenshots](${APP_URL}/screenshots/competitors.png): Product screenshots.`,
     "",
   ].join("\n");
 
   return new Response(content, {
     headers: {
       "Content-Type": "text/plain; charset=utf-8",
+      "Cache-Control": "public, max-age=3600, s-maxage=86400",
     },
   });
 }

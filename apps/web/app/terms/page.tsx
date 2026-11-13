@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "Terms and Conditions - Euler",
   description:
     "The terms and conditions that govern your use of Euler's AI-powered development platform.",
+  alternates: {
+    canonical: "/terms",
+  },
 };
 
 const sections = [

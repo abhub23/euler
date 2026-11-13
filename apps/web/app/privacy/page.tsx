@@ -6,6 +6,9 @@ import Navbar from "@/components/navbar";
 export const metadata: Metadata = {
   title: "Privacy Policy - Euler",
   description: "How Euler collects, uses, and protects your personal information.",
+  alternates: {
+    canonical: "/privacy",
+  },
 };
 
 const sections = [

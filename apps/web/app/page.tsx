@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { BentoCard } from "@/components/bento-card";
 import { Container } from "@/components/container";
 import CTA from "@/components/cta";
@@ -9,6 +10,16 @@ import { LogoCluster } from "@/components/logo-cluster";
 import { SiteMap } from "@/components/map";
 import Navbar from "@/components/navbar";
 import { Heading } from "@/components/text";
+import { APP_URL } from "@/lib/site";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    url: APP_URL,
+  },
+};
 
 function BentoSection() {
   return (
