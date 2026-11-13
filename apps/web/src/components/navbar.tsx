@@ -118,28 +118,32 @@ export default function Navbar() {
             <Link
               href="#"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="font-medium text-[16px] text-foreground transition-colors hover:text-foreground/80"
+              className="menu-item-in font-medium text-[16px] text-foreground transition-colors hover:text-foreground/80"
+              style={{ animationDelay: "0ms" }}
             >
               Docs
             </Link>
             <Link
               href="/pricing"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="font-medium text-[16px] text-foreground transition-colors hover:text-foreground/80"
+              className="menu-item-in font-medium text-[16px] text-foreground transition-colors hover:text-foreground/80"
+              style={{ animationDelay: "60ms" }}
             >
               Pricing
             </Link>
             <Link
               href="/about"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="font-medium text-[16px] text-foreground transition-colors hover:text-foreground/80"
+              className="menu-item-in font-medium text-[16px] text-foreground transition-colors hover:text-foreground/80"
+              style={{ animationDelay: "120ms" }}
             >
               About
             </Link>
             <Link
               href="/privacy"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="font-medium text-[16px] text-foreground transition-colors hover:text-foreground/80"
+              className="menu-item-in font-medium text-[16px] text-foreground transition-colors hover:text-foreground/80"
+              style={{ animationDelay: "180ms" }}
             >
               Policy
             </Link>
